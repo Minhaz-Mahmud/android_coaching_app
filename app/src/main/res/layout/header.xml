@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+
+    android:background="#8DCBD3"
+
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="77dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Header_Image"
+        android:src="@drawable/alpha"
+
+        />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="181dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Alpha Coaching"
+         android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

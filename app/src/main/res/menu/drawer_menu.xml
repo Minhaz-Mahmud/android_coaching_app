@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="ACCOUNT">
+                <menu>
+                        <item
+                            android:icon="@drawable/baseline_account_circle_24"
+                            android:id="@+id/your_account_profile"
+                            android:title="Your profile">
+                        </item>
+                        <item android:id="@+id/your_courses"
+                            android:icon="@drawable/baseline_menu_book_24"
+                            android:title="Your Courses">
+                        </item>
+
+                        <item android:id="@+id/buy_courses"
+                            android:icon="@drawable/baseline_loupe_24"
+                            android:title="Buy Courses">
+                        </item>
+                </menu>
+        </item>
+
+        <item android:title="OTHERS">
+                <menu>
+                        <item android:id="@+id/log_out_drawer_item_id"
+                            android:icon="@drawable/baseline_logout_24"
+                            android:title="Log Out">
+                        </item>
+
+                        <item android:id="@+id/contact_us"
+                            android:icon="@drawable/baseline_phone_24"
+                            android:title="Contact Us"/>
+
+                        <item android:id="@+id/email"
+                            android:icon="@drawable/baseline_alternate_email_24"
+                            android:title="Email"/>
+                </menu>
+        </item>
+
+</menu>

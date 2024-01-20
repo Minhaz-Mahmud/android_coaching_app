@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AlphaCoaching</string>
+
+    <string name="transaction">Pay the fees of the selected course to our Bkash account and enter
+    the transaction number below:   </string>
+    <string name="about_us">
+
+        Our institution was born out of passion .A passion for making  difference
+        Creating a movement of OnnoRokom Manush(different humans) and bringing
+  about  a change.When our institution was founded in the later part of 2000,
+    its founders had no idea that it would take on a life of its own.We provide
+    our best for the good of the students.We have a great number of qualified and
+   experienced teachers and instructors.we provide all kinds of facilities to our students.
+
+    </string>
+
+</resources>

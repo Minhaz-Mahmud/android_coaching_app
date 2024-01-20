@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <!--            SSC ACADEMIC/////////////////////////////////////////////////////////////////////-->
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@color/design_default_color_secondary"
+                android:gravity="center"
+                android:text="SSC"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/ssc_academic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#2196F3"
+                    android:text="5000 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ssc_academic"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--            SSC MODEL TEST  ////////////////////////////////////////////////////////////-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/ssc_model_test" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#FF9800"
+                    android:text="4000 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ssc_model_test"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--            SSC BANGLA  ////////////////////////////////////////////////////////////-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/ssc_bangla" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#4CAF50"
+                    android:text="4000 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ssc_bangla_english"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--            HSC BANGLA/////////////////////////////////////////////////////////////////////-->
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/design_default_color_error"
+                android:gravity="center"
+                android:text="HSC"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/hsc_bangla" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#2196F3"
+                    android:text="3500 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/hsc_bangla"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--            SSC MODEL TEST  ////////////////////////////////////////////////////////////-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/hsc_model_test" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#FF9800"
+                    android:text="4500 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/hsc_model"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--            HSC ACADEMIC  ////////////////////////////////////////////////////////////-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/hsc_academic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#FF9800"
+                    android:text="6000 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/hsc_academic"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--            ENGINEERING/////////////////////////////////////////////////////////////////////-->
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/design_default_color_secondary"
+                android:gravity="center"
+                android:text="ADMISSION"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/engineering" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="153dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#2196F3"
+                    android:text="10,000 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/engineering"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--            MEDICAL ////////////////////////////////////////////////////////////-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/medical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#4CAF50"
+                    android:text="8500 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/medical"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--           UNIVERSITY///////////////////////////////////////////////////////////-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFEB3B"
+                android:paddingEnd="0.01dp"
+                android:src="@drawable/versity" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="20dp"
+                    android:background="#4CAF50"
+                    android:text="7000 Taka"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/university"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#FFEB3B"
+                    android:text="ENROLL"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
